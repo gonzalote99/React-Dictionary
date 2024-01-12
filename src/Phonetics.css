@@ -1,0 +1,25 @@
+.Phonetics {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.Phonetics audio {
+  border: 1px solid #00203C;
+  text-align: left;
+  margin: 5px 15px 0 3px;
+  border-radius: 12px;
+  max-height: 25px;
+  max-width: 275px;
+  box-shadow: 0 5px 15px rgb(0 0 0 / 25%);
+  overflow: hidden;
+}
+
+.Phonetics .text {
+  opacity: 0.7;
+  font-weight: bold;
+  font-size: 25px;
+  letter-spacing: 2px;
+  margin 0 20px 0 5px;
+}
